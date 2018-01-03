@@ -1,0 +1,2056 @@
+
+#title {
+    display: inline;
+    
+}
+#logobillede {
+    max-width: 2.5em;
+}
+
+#designlink {
+    grid-area: designlink;
+    width: 49%;
+    
+    
+}
+
+
+#kommunikationslink {
+    grid-area: kommunikationlink;
+    width: 49%;
+    
+  
+}
+
+#virksomhedslink {
+    grid-area: virksomhedslink;
+    width: 49%;
+    
+}
+
+
+
+#interaktionslink {
+    grid-area: interaktionslink;
+    width: 49%;
+    
+}
+
+#links {
+     display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 
+        "interaktionslink designlink"
+        "kommunikationlink virksomhedslink"
+        ;
+}
+
+
+.navbar navbar-inverse {
+    position: fixed;
+}
+/* Interaktionsudviklings Grid */
+#sektion1 {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:2fr;
+    grid-template-areas:
+        "hist"
+        "histbillede"
+        "dagh"
+        "histbillede1"
+        "dagh1"
+        "histbillede2"
+        "dagh2"
+        "histbillede3"
+        "dagh3"
+        "histbillede4"
+        "dagh4"
+        "html"
+        "htmlbillede"
+        "link1"
+        "dag1"
+        "cssbillede"
+        "link2"
+        "dag2"
+        "content"
+        "contentbillede"
+        "link3"
+        "dag3"
+        "gitbillede"
+        "link4"
+        "dag4"
+        "grid"
+        "gridsbillede"
+        "link6"
+        "dag5"
+        "boostrapbillede"
+        "link7"
+        "dag6"
+       ;
+}
+/* Interaktionsudviklings Grid */
+
+#hist {
+    grid-area: hist;
+    text-align:center;
+}
+
+#html {
+    grid-area: html;
+    text-align:center;
+}
+
+#content {
+    grid-area: content;
+    text-align:center;
+    
+}
+
+#grids {
+    grid-area: grid;
+    text-align: center;
+}
+/* Interaktionsudviklings Billeder */
+
+#histbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: histbillede;
+    margin:auto;
+    
+}
+
+#histbillede1 {
+    width: 15em;
+    padding: 1em;
+    grid-area: histbillede1;
+    margin:auto;
+    
+}
+
+#histbillede2 {
+    width: 15em;
+    padding: 1em;
+    grid-area: histbillede2;
+    margin:auto;
+    
+}
+
+#histbillede3 {
+    width: 15em;
+    padding: 1em;
+    grid-area: histbillede3;
+    margin:auto;
+    
+}
+
+#histbillede4 {
+    width: 15em;
+    padding: 1em;
+    grid-area: histbillede4;
+    margin:auto;
+    
+}
+
+#htmlbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: htmlbillede;
+    margin:auto;
+}
+
+#contentbillede {
+    width: 15em;
+    grid-area: contentbillede;
+     margin:auto;
+}
+
+#gitbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: gitbillede;
+    margin:auto;
+}
+
+
+
+
+#gridsbillede {
+    width: 15em;
+    grid-area: gridsbillede;
+     margin:auto;
+}
+
+#bootstrapbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: boostrapbillede;
+    
+}
+
+
+#cssbillede {
+    width: 20em;
+    padding: 1em;
+    grid-area: cssbillede;
+    margin:auto;
+}
+/* Interaktionsudviklings Billeder */
+
+#link1, #link2, #link3, #link4, #link5, #link6, #link7, #linkproj {
+padding: 0.5em;
+}
+
+#link1 {
+    grid-area: link1;
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+    
+}
+
+#link5 {
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+    
+}
+
+#link7 {
+    grid-area: link7;
+    
+}
+
+#linkproj {
+    grid-area: linkproj;
+}
+
+#dag1 {
+    grid-area: dag1;
+}
+#dag2 {
+    grid-area: dag2;
+
+}
+
+#dagh {
+    
+    grid-area: dagh;
+    
+}
+
+#dagh1 {
+    
+    grid-area: dagh1;
+    
+}
+
+#dagh2 {
+    
+    grid-area: dagh2;
+    
+}
+
+#dagh3 {
+    
+    grid-area: dagh3;
+    
+}
+
+#dagh4 {
+    
+    grid-area: dagh4;
+    
+}
+
+#dag3 {
+    
+    grid-area: dag3;
+    
+}
+
+#dag4 {
+    
+    grid-area: dag4;
+    
+}
+
+#dag5 {
+    
+    grid-area: dag5;
+    
+}
+
+#dag6 {
+    
+    grid-area: dag6;
+    
+}
+
+/* D&V Grid */
+#sektion2 {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:2fr;
+    grid-template-areas:
+        "farve"
+        "farvebillede"
+        "dagf"
+        "gestaltbillede"
+        "linkg"
+        "dagg"
+        "foto"
+        "fotobillede"
+        "dagfo"
+        "fotobillede1"
+        "dagfo1"
+        "fotobillede2"
+        "dagfo2"
+        "fotobillede3"
+        "dagfo3"
+        "typobillede"
+        "linkty"
+        "dagty"
+        "photo"
+        "photobillede"
+        "linkpho"
+        "dagpho"
+        "illubillede"
+        "linkil"
+        "dagil"
+        "indesign"
+        "indesignbillede"
+        "linkin"
+        "dagin"
+        "præsbillede"
+        "linkpr"
+        "dagpr"
+        "video"
+        "videobillede"
+        "linkvi"
+        "dagvi"
+        "dagvi1"
+
+        
+       ;
+}
+/* D&V Grid */
+
+#farve {
+    grid-area: farve;
+    text-align:center;
+}
+
+#foto {
+    grid-area: foto;
+    text-align:center;
+    
+}
+
+#photo {
+    grid-area: photo;
+    text-align: center;
+}
+
+#indesign {
+    grid-area: indesign;
+    text-align: center;
+}
+
+
+#video {
+    grid-area: video;
+    text-align: center;
+}
+
+/* Design og Visualiserings billeder */
+#farvebillede {
+    height: 10em;
+    padding: 1em;
+    grid-area: farvebillede;
+    margin:auto;
+}
+
+#gestaltbillede {
+    width: 15em;
+    grid-area: gestaltbillede;
+    margin:auto;
+}
+
+#fotobillede {
+    width: 20em;
+    padding: 1em;
+    grid-area: fotobillede;
+    margin:auto;
+}
+
+#fotobillede1 {
+    width: 23em;
+    padding: 1em;
+    grid-area: fotobillede1;
+    margin:auto;
+}
+
+#fotobillede2 {
+    width: 23em;
+    padding: 1em;
+    grid-area: fotobillede2;
+    margin:auto;
+}
+
+#fotobillede3 {
+    width: 23em;
+    padding: 1em;
+    grid-area: fotobillede3;
+    margin:auto;
+}
+
+
+#typobillede {
+    width: 15em;
+    grid-area: typobillede;
+    margin:auto;
+}
+
+#photobillede {
+    width: 15em;
+    margin:auto;
+    grid-area: photobillede;
+    
+}
+
+#illubillede {
+    width: 15em;
+    margin:auto;
+    grid-area: illubillede;
+    
+}
+
+#indesignbillede {
+    width: 10em;
+    margin:auto;
+    grid-area: indesignbillede;
+    
+}
+
+#præsbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: præsbillede;
+    
+}
+
+#videobillede {
+    width: 15em;
+    margin:auto;
+    grid-area: videobillede;
+    
+}
+/* Design og Visualiserings billeder */
+
+
+#dagh, #dagh1, #dagh2, #dagh3, #dagh4, #dagf, #dagg, #dagfo, #dagfo1, #dagfo2, #dagfo3, #dagty, #dagpho, #dagil, #dagin, #dagpr, #dagvi, #dagvi1, #dagim, #dagth, #dagka, #daglas, #daghv, #daghk, #dagbo, #dagbol, #dagwe, #sek, #hie, #webs, #dagnav, #dagid, #daggru, #dagro, #dagvis, #arke, #dagepl, #dagsemi, #lyd1, #han1, #perp1, #sr, #sor, #dagdk #dagvirk, #swot1, #dagforr, #dagforr1, #dagimm, #dagimm1, #dagde, #dagde1, #dagopp, #dagvand, #scrum1, #dagopn, #cplf, #gnu1, #mit, #dagproj, #dagonep, #daglr, #dag1, #dag2, #dag3, #dag4, #dag5, #dag6 {
+    font-size: 1em;
+    padding: 1em;
+}
+
+
+
+#linkf, #linkg, #linkfo, #linkty, #linkpho, #linkil, #linkin, #linkpr, #linkvi, #linkro, #linkgru, #linkde, #one1, #lr3 {
+padding: 0.5em;
+}
+
+#linkf {
+    grid-area: linkf;
+}
+
+#linkg {
+    grid-area: linkg;
+    
+}
+
+#linkfo {
+    grid-area: linkfo;
+    
+}
+
+#linkty {
+    grid-area: linkty;
+    
+}
+
+#linkpho {
+    grid-area: linkpho;
+    
+}
+
+#linkil {
+    grid-area: linkil;
+    
+}
+
+#linkin {
+    grid-area: linkin;
+    
+}
+#linkpr {
+    grid-area: linkpr;
+    
+}
+
+#linkvi {
+    grid-area: linkvi;
+    
+}
+
+#dagf {
+    grid-area: dagf;
+}
+
+#dagg {
+    grid-area: dagg;
+
+}
+
+#dagfo {
+    
+    grid-area: dagfo;
+    
+}
+
+#dagfo1 {
+    
+    grid-area: dagfo1;
+    
+}
+
+#dagfo2 {
+    
+    grid-area: dagfo2;
+    
+}
+
+#dagfo3 {
+    
+    grid-area: dagfo3;
+    
+}
+
+#dagty {
+    
+    grid-area: dagty;
+    
+}
+
+#dagpho {
+    
+    grid-area: dagpho;
+    
+}
+
+#dagil {
+    
+    grid-area: dagil;
+    
+}
+
+#dagin {
+    
+    grid-area: dagin;
+    
+}
+
+#dagpr {
+    
+    grid-area: dagpr;
+    
+}
+
+#dagvi {
+    
+    grid-area: dagvi;
+    
+}
+
+#dagvi1 {
+    
+    grid-area: dagvi1;
+    
+}
+
+/* Kommunikations Grid */
+#sektion3 {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:2fr;
+    grid-template-areas:
+        "imk"
+        "Imk1"
+        "imkbillede"
+        "dagim"
+        "thorl"
+        "thorbillede"
+        "dagth"
+        "kan"
+        "kanbillede"   
+        "dagka"
+        "srbillede"
+        "sr"
+        "sorbillede"
+        "sor"
+        "lassbillede"
+        "daglas"
+        "hvhj"
+        "hvhjbillede"
+        "daghv"
+        "dk"
+        "dkbillede"
+        "dagdk"
+        "SS"
+        "ssbillede"
+        "dagbo"
+        "bol"
+        "bolbillede"
+        "dagbol"
+        "webu"
+        "webubillede"
+        "dagwe"
+        "sekbillede"
+        "sek"
+        "hiebillede"
+        "hie"
+        "websbillede"
+        "webs"
+        "nav"
+        "navbillede"
+        "dagnav"
+        "ide"
+        "idebilled"
+        "dagid"
+        "gru"
+        "grubillede"
+        "linkgru"
+        "daggru"
+        "ro"
+        "robillede"
+        "dagro"
+        "vis"
+        "visbillede"
+        "is"
+        "dagvis"
+        "ark"
+        "arke"
+        "epl"
+        "eplbillede"
+        "dagepl"
+        "sem"
+        "sembillede"
+        "dagsemi"
+        "lyd"
+        "lyd1"
+        "han"
+        "han1"
+        "perp"
+        "perp1"
+;
+}
+
+/* Kommunikations Grid */
+
+#dagim {
+    grid-area: dagim;
+}
+
+#dagth {
+    grid-area: dagth;
+
+}
+
+#dagka {
+    
+    grid-area: dagka;
+    
+}
+
+#daglas {
+    
+    grid-area: daglas;
+    
+}
+
+#daghv {
+    
+    grid-area: daghv;
+    
+}
+
+#dagdk {
+    
+    grid-area: dagdk;
+    
+}
+
+#dagbo {
+    grid-area: dagbo;
+}
+
+#dagbol {
+    
+    grid-area: dagbol;
+    
+}
+
+#dagwe {
+    
+    grid-area: dagwe;
+    
+}
+
+#sek {
+    
+    grid-area: sek;
+    
+}
+
+#hie {
+    grid-area: hie;
+}
+
+#webs {
+    grid-area: webs;
+
+}
+
+#dagnav {
+    
+    grid-area: dagnav;
+    
+}
+
+#dagid {
+    
+    grid-area: dagid;
+    
+}
+
+#daggru {
+    
+    grid-area: daggru;
+    
+}
+
+#dagro {
+    
+    grid-area: dagro;
+    
+}
+
+#dagvis {
+    
+    grid-area: dagvis;
+    
+}
+
+#arke {
+    
+    grid-area: arke;
+    
+}
+
+#dagepl {
+    
+    grid-area: dagepl;
+    
+}
+
+#dagsemi {
+    
+    grid-area: dagsemi;
+    
+}
+
+#lyd1 {
+    
+    grid-area: lyd1;
+    
+}
+
+#han1 {
+    
+    grid-area: han1;
+    
+}
+
+#perp1 {
+    
+    grid-area: perp1;
+    
+}
+
+#sr {
+    
+    grid-area: sr;
+    
+}
+
+#sor {
+    
+    grid-area: sor;
+    
+}
+/* Kommunikations Billeder */
+#imkbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: imkbillede;
+     margin:auto;
+}
+
+#sembillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: sembillede;
+     margin:auto;
+}
+
+
+#thorbillede {
+    width: 15em;
+    grid-area: thorbillede;
+    margin:auto;
+}
+
+#kanbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: kanbillede;
+     margin:auto;
+}
+
+
+
+
+#srbillede {
+    width: 15em;
+    grid-area: srbillede;
+     margin:auto;
+}
+
+#sorbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: sorbillede;
+    
+}
+
+#lassbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: lassbillede;
+    
+}
+
+#hvhjbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: hvhjbillede;
+    
+}
+
+#dkbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: dkbillede;
+    
+}
+
+#ssbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: ssbillede;
+    
+}
+
+#bolbillede {
+    height: 30em;
+    padding: 1em;
+    grid-area: bolbillede;
+     margin:auto;
+}
+
+#webubillede {
+    width: 15em;
+    grid-area: webubillede;
+     margin:auto;
+}
+
+#sekbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: sekbillede;
+    margin:auto;
+}
+
+#ro1billede {
+    width: 15em;
+    padding: 1em;
+    grid-area: ro1billede;
+     margin:auto;
+}
+
+
+
+#hiebillede {
+    width: 15em;
+    grid-area: hiebillede;
+    margin:auto;
+}
+
+#websbillede {
+    width: 15em;
+   margin:auto;
+    grid-area: websbillede;
+    
+}
+
+#navbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: navbillede;
+    
+}
+
+#idebillede {
+    width: 15em;
+    margin:auto;
+    grid-area: idebillede;
+    
+}
+
+#grubillede {
+    width: 15em;
+    margin:auto;
+    grid-area: grubillede;
+    
+}
+
+#robillede {
+    width: 15em;
+    margin:auto;
+    grid-area: robillede;
+    
+}
+
+#visbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: visbillede;
+    
+}
+
+#eplbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: eplbillede;
+    
+}
+/* Kommunikations Billeder */
+#imk {
+    grid-area: imk;
+    text-align:center;
+}
+
+#imk1 {
+    grid-area: imk1;
+    text-align:center;
+    
+}
+
+#thorl {
+    grid-area: thorl;
+    text-align: center;
+}
+
+#kan {
+    grid-area: kan;
+    text-align: center;
+}
+
+#webu {
+    grid-area: webu;
+    text-align: center;
+}
+
+#hvhj {
+    grid-area: hvhj;
+    text-align:center;
+}
+
+#dk {
+    grid-area: dk;
+    text-align:center;
+    
+}
+
+#SS {
+    grid-area: SS;
+    text-align: center;
+}
+
+#bol {
+    grid-area: bol;
+    text-align: center;
+}
+
+#nav {
+    grid-area: nav;
+    text-align: center;
+}
+
+#ide {
+    grid-area: ide;
+    text-align:center;
+}
+
+#gru {
+    grid-area: gru;
+    text-align:center;
+    
+}
+
+#ro {
+    grid-area: ro;
+    text-align: center;
+}
+
+#vis {
+    grid-area: vis;
+    text-align: center;
+}
+
+#ark {
+    grid-area: ark;
+    text-align: center;
+}
+
+#epl {
+    grid-area: epl;
+    text-align:center;
+}
+
+#sem {
+    grid-area: sem;
+    text-align:center;
+    
+}
+
+#lyd {
+    grid-area: lyd;
+    text-align: center;
+}
+
+#han {
+    grid-area: han;
+    text-align: center;
+}
+
+#perp {
+    grid-area: perp;
+    text-align: center;
+}
+
+#is {
+    grid-area: is;
+    text-align: center;
+}
+
+/* Virksomheds Grid */
+#sektion4 {
+    display:grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    "virk"
+    "virkbillede"	
+    "dagvirk"	
+    "swot"	
+    "swotbillede"	
+    "swot1"	
+    "for"	
+    "forbillede"	
+    "dagforr" 	
+    "dagforr1"	
+    "imm"	
+    "immbillede"	
+    "dagimm"
+    "dagimm1"
+    "de"	
+    "debillede"	
+    "de1"
+    "dagde"	
+    "de2"
+    "dagde1"
+    "op"
+    "opbillede"
+    "dagopp"
+    "van"
+    "vanbillede"
+    "dagvand"
+    "scrum"
+    "scrbillede"
+    "scrum1"
+    "open"
+    "opnbillede"
+    "dagopn"
+    "cplf"
+    "gnu"
+    "gnubillede"
+    "gnu1"
+    "mit"
+
+        ;
+       
+}
+/* Virksomheds Grid */
+#dagvirk {
+    grid-area: dagvirk;
+}
+
+#swot1 {
+    grid-area: swot1;
+
+}
+
+#dagforr {
+    
+    grid-area: dagforr;
+    
+}
+
+#dagforr1 {
+    
+    grid-area: dagforr1;
+    
+}
+
+#dagimm {
+    
+    grid-area: dagimm;
+    
+}
+
+#dagimm1 {
+    
+    grid-area: dagimm1;
+    
+}
+
+#dagde {
+    grid-area: dagde;
+}
+
+#dagde1 {
+    
+    grid-area: dagde1;
+    
+}
+
+#dagopp {
+    
+    grid-area: dagopp;
+    
+}
+
+#dagvand {
+    
+    grid-area: dagvand;
+    
+}
+
+#scrum1 {
+    grid-area: scrum1;
+}
+
+#dagopn {
+    grid-area: dagopn;
+
+}
+
+#cplf {
+    
+    grid-area: cplf;
+    
+}
+
+#gnu1 {
+    
+    grid-area: gnu1;
+    
+}
+
+#mit {
+    
+    grid-area: mit;
+    
+}
+/* Virksomheds Billeder */
+#virkbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: virkbillede;
+     margin:auto;
+}
+
+#swotbillede {
+    width: 15em;
+    grid-area: swotbillede;
+    margin:auto;
+}
+
+#forbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: forbillede;
+     margin:auto;
+}
+
+#immbillede {
+    width: 15em;
+    grid-area: immbillede;
+     margin:auto;
+}
+
+#debillede {
+    width: 15em;
+    margin:auto;
+    grid-area: debillede;
+    
+}
+
+#opbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: opbillede;
+    
+}
+
+#vanbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: vanbillede;
+    
+}
+
+#scrbillede {
+    width: 15em;
+    margin:auto;
+    grid-area: scrbillede;
+    
+}
+
+#opnbillede {
+    width: 15em;
+    padding: 1em;
+    grid-area: opnbillede;
+     margin:auto;
+}
+
+#gnubillede {
+    width: 15em;
+    grid-area: gnubillede;
+     margin:auto;
+}
+/* Virksomheds Billeder */
+
+
+#virk {
+    grid-area: virk;
+    text-align:center;
+}
+
+#swot {
+    grid-area: swot;
+    text-align:center;
+    
+}
+
+#for {
+    grid-area: for;
+    text-align: center;
+}
+
+#imm {
+    grid-area: imm;
+    text-align: center;
+}
+
+#de {
+    grid-area: de;
+    text-align: center;
+}
+
+#de1 {
+    grid-area: de1;
+    text-align:center;
+}
+
+#de2 {
+    grid-area: de2;
+    text-align:center;
+    
+}
+
+#op {
+    grid-area: op;
+    text-align: center;
+}
+
+#van {
+    grid-area: van;
+    text-align: center;
+}
+
+#scrum {
+    grid-area: scrum;
+    text-align: center;
+}
+
+#open {
+    grid-area: open;
+    text-align:center;
+}
+
+#gnu {
+    grid-area: gnu;
+    text-align:center;
+    
+}
+
+/* Tværfagligt grid, desktop og tablet */
+#sektion5 {
+    display:grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+        "proj"
+        "projbillede"
+        "linkproj"
+        "dagproj"
+        "one"
+        "onebillede"
+        "one1"
+        "dagonep"
+        "lr"
+        "lrbillede"
+        "daglr"
+       
+
+        
+}
+/* Tværfagligt grid, desktop og tablet */
+#proj {
+    grid-area: proj;
+    text-align: center;
+}
+
+#one {
+    grid-area: one;
+    text-align:center;
+}
+
+#lr {
+    grid-area: lr;
+    text-align:center;
+    
+}
+
+#dagproj {
+    
+    grid-area: dagproj;
+    
+}
+
+#dagonep {
+    
+    grid-area: dagonep;
+    
+}
+
+#daglr {
+    
+    grid-area: daglr;
+    
+}
+/* Tværfaglige billeder */
+#lrbillede {
+    width: 15em;
+    margin: auto;
+    grid-area: lrbillede;
+    
+}
+
+#projbillede {
+    width: 15em;
+    margin: auto;
+    grid-area: projbillede;
+    
+}
+
+#onebillede {
+    width: 15em;
+    margin: auto;
+    grid-area: onebillede;
+}
+/* Her slutter tværfaglige billeder */
+#one1 {
+    grid-area: one1;
+    
+}
+#lr3 {
+    grid-area: lr3;
+    
+}
+
+#linkde {
+    grid-area: linkde;
+    
+}
+
+
+#footer {
+    text-align: center;
+    background-color: #101010;
+    color: #767676;
+    
+    
+}
+
+/* alt over 768px viser denne kode */
+@media screen and (min-width: 768px) 
+{
+    
+#dagh, #dagh1, #dagh2, #dagh3, #dagh4, #dagf, #dagg, #dagfo, #dagfo1, #dagfo2, #dagfo3, #dagty, #dagpho, #dagil, #dagin, #dagpr, #dagvi, #dagvi1, #dagim, #dagth, #dagka, #daglas, #daghv, #daghk, #dagbo, #dagbol, #dagwe, #sek, #dagdk, #hie, #webs, #dagnav, #dagid, #daggru, #dagro, #dagvis, #arke, #dagepl, #dagsemi, #lyd1, #han1, #perp1, #sr, #sor, #dagvirk, #swot1, #dagforr, #dagforr1, #dagimm, #dagimm1, #dagde, #dagde1, #dagopp, #dagvand, #scrum1, #dagopn, #cplf, #gnu1, #mit, #dagproj, #dagonep, #daglr, #dag1, #dag2, #dag3, #dag4, #dag5, #dag6 {
+    font-size: 1.3em;
+    padding: 1em;
+}
+    
+#linkf, #linkg, #linkfo, #linkty, #linkpho, #linkil, #linkin, #linkpr, #linkvi, #linkro, #linkgru, #linkde, #one1, #lr3 {
+padding: 0.5em;
+}
+
+/* Griddet til desktop interaktionsudvikling */    
+#sektion1 {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:2fr;
+    grid-template-areas:
+        "hist hist"
+        "histbillede histbillede1"
+        "dagh dagh1"
+        "histbillede2 histbillede3"
+        "dagh2 dagh3"
+        "histbillede4 histbillede4"
+        "dagh4 dagh4"
+        "html html"
+        "htmlbillede cssbillede"
+        "link1 link2"
+        "dag1 dag2"
+        "content content"
+        "contentbillede gitbillede"
+        "link3 link4"
+        "dag3 dag4"
+        "grid grid"
+        "gridsbillede boostrapbillede"
+        "link6 link7"
+        "dag5 dag6"
+       ;
+}    
+/* Her slutter griddet til interaktionsudvikling desktop */
+/* Griddet til Design og Visualisering */    
+#sektion2 {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:2fr 2fr;
+    grid-template-areas:
+        "farve farve"
+        "farvebillede gestaltbillede"
+        ". linkg"
+        "dagf dagg"
+        "foto foto"
+        "fotobillede fotobillede1"
+        "dagfo dagfo1"
+        "fotobillede2 fotobillede3"
+        "dagfo2 dagfo3"
+        "typobillede typobillede"
+        "linkty ."
+        "dagty dagty"
+        "photo photo"
+        "photobillede illubillede"
+        "linkpho linkil"
+        "dagpho dagil"
+        "indesign indesign" 
+        "indesignbillede præsbillede"
+        "linkin linkpr"
+        "dagin dagpr"
+        "video video"
+        "videobillede videobillede"
+        "linkvi linkvi"
+        "dagvi dagvi1"
+        
+        
+        
+        
+       ;
+}    
+/* Her slutter griddet til design og visualisering */   
+/* Griddet til Kommunikation desktop */    
+#sektion3 {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:2fr 2fr;
+    grid-template-areas:
+        "imk imk"
+        "imk1 thorl"
+        "imkbillede thorbillede"
+        "dagim dagth"
+        "kan kan"
+        "kanbillede srbillede"
+        "dagka sr"
+        "sorbillede lassbillede"
+        "sor daglas"
+        "hvhj dk"
+        "hvhjbillede dkbillede"
+        "daghv dagdk"
+        "SS bol"
+        "ssbillede bolbillede"
+        "dagbo dagbol"
+        "webu webu"
+        "webubillede sekbillede"
+        "dagwe sek"
+        "hiebillede websbillede"
+        "hie webs"
+        "navbillede nav"
+        "dagnav dagnav"
+        "ide ide"
+        "idebillede idebillede"
+        "dagid dagid"
+        "gru gru"
+        "grubillede grubillede"
+        "linkgru linkgru"
+        "daggru daggru"
+        "ro ro"
+        "robillede ro1billede"
+        "dagro dagro"
+        "vis vis"
+        "visbillede visbillede"
+        "is ark"
+        "dagvis arke"
+        "epl sem"
+        "eplbillede sembillede"
+        "dagepl dagsemi"
+        "lyd han"
+        "lyd1 han1"
+        "perp perp"
+        "perp1 perp1";
+}
+/* Her slutter kommunikation griddet */
+/* Griddet til Virksomheden desktop */    
+#sektion4 {
+    display:grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+        "virk swot"
+        "virkbillede swotbillede"
+        "dagvirk swot1"
+        "for for"
+        "forbillede forbillede"
+        "dagforr dagforr1"
+        "imm imm"
+        "immbillede immbillede"
+        "dagimm dagimm1"
+        "de de"
+        "debillede debillede"
+        "de1 de2"
+        "dagde dagde1"
+        "op op"
+        "opbillede opbillede"
+        "dagopp dagopp"
+        "van scrum"
+        "vanbillede scrbillede"
+        "dagvand scrum1"
+        "open open"
+        "opnbillede opnbillede"
+        "dagopn cplf"
+        "gnu gnu"
+        "gnubillede gnubillede"
+        "gnu1 mit"
+        ;
+       
+}
+/* Her slutter Virksomhedens grid */
+/* Frontpage Billedlinks */      
+#designlink {
+    grid-area: designlink;
+    width: 49%;
+    height: 30em;
+}
+
+
+#kommunikationslink {
+    grid-area: kommunikationlink;
+    width: 49%;
+    height: 30em;
+}
+
+#virksomhedslink {
+    grid-area: virksomhedslink;
+    width: 49%;
+    height: 30em;
+}
+
+
+
+#interaktionslink {
+    grid-area: interaktionslink;
+    width: 49%;
+    height: 30em;
+}    
+    
+/* Frontpage Billedlinks */  
+/* Interaktionsudviklings Billeder */   
+    
+#histbillede {
+    width: 35em;
+    padding: 1em;
+    grid-area: histbillede;
+    margin:auto;
+    
+}
+
+#histbillede1 {
+    width: 35em;
+    padding: 1em;
+    grid-area: histbillede1;
+    margin:auto;
+    
+}
+
+#histbillede2 {
+    width: 35em;
+    padding: 1em;
+    grid-area: histbillede2;
+    margin:auto;
+    
+}
+
+#histbillede3 {
+    width: 35em;
+    padding: 1em;
+    grid-area: histbillede3;
+    margin:auto;
+    
+}
+
+#histbillede4 {
+    width: 35em;
+    padding: 1em;
+    grid-area: histbillede4;
+    margin:auto;
+    
+}
+    
+#htmlbillede {
+    width: 40em;
+    padding: 1em;
+    grid-area: htmlbillede;
+    margin: auto;
+}
+
+#contentbillede {
+    width: 40em;
+    grid-area: contentbillede;
+     margin: auto;
+}
+
+#gitbillede {
+    width: 40em;
+    padding: 1em;
+    grid-area: gitbillede;
+     margin: auto;
+}
+
+
+#gridsbillede {
+    width: 55em;
+    grid-area: gridsbillede;
+     margin: auto;
+}
+
+#bootstrapbillede {
+    width: 49em;
+    margin: auto;
+    grid-area: boostrapbillede;
+    
+}
+
+
+#cssbillede {
+    width: 49em;
+    padding: 1em;
+    grid-area: cssbillede;
+    margin: auto;
+}
+/* Her slutter Interaktionsudviklings Billeder */       
+/* Design og Visualisering Billeder */       
+#farvebillede {
+    height: 25em;
+    grid-area: farvebillede;
+    margin: auto;
+}
+    
+    
+    
+#gestaltbillede {
+    width: 40em;
+    grid-area: gestaltbillede;
+   margin: auto;
+}
+
+#fotobillede {
+    width: 40em;
+    padding: 1em;
+    grid-area: fotobillede;
+    margin:auto;
+}
+
+#fotobillede1 {
+    width: 40em;
+    padding: 1em;
+    grid-area: fotobillede1;
+    margin:auto;
+}
+
+#fotobillede2 {
+    width: 40em;
+    padding: 1em;
+    grid-area: fotobillede2;
+    margin:auto;
+}
+
+#fotobillede3 {
+    width: 40em;
+    padding: 1em;
+    grid-area: fotobillede3;
+    margin:auto;
+}
+
+
+
+
+#typobillede {
+    width: 25em;
+    margin:auto;
+    grid-area: typobillede;
+}
+
+#photobillede {
+    width: 50em;
+    margin:auto;
+    grid-area: photobillede;
+    
+}
+
+#illubillede {
+    width: 30em;
+    margin:auto;
+    grid-area: illubillede;
+    
+}
+
+#indesignbillede {
+    width: 50em;
+    margin:auto;
+    grid-area: indesignbillede;
+    
+}
+
+#præsbillede {
+    width: 30em;
+    margin:auto;
+    grid-area: præsbillede;
+    
+}
+
+#videobillede {
+    width: 49em;
+    margin:auto;
+    grid-area: videobillede;
+    
+}
+/* Her slutter design og visualiserings Billeder */   
+/* Kommunikations Billeder */      
+    
+#imkbillede {
+    width: 30em;
+    padding: 1em;
+    grid-area: imkbillede;
+     margin:auto;
+}
+
+#sembillede {
+    width: 50em;
+    padding: 1em;
+    grid-area: sembillede;
+     margin:auto;
+}
+
+
+#thorbillede {
+    width: 40em;
+    grid-area: thorbillede;
+    margin:auto;
+}
+
+#kanbillede {
+    width: 50em;
+    padding: 1em;
+    grid-area: kanbillede;
+    margin:auto;
+}
+
+
+#srbillede {
+    width: 50em;
+    grid-area: srbillede;
+     margin:auto;
+}
+
+#sorbillede {
+    width: 50em;
+    margin:auto;
+    grid-area: sorbillede;
+    
+}
+
+#lassbillede {
+    width: 50em;
+    margin:auto;
+    grid-area: lassbillede;
+    
+}
+
+#hvhjbillede {
+    width: 35em;
+    margin:auto;
+    grid-area: hvhjbillede;
+    
+}
+
+#dkbillede {
+    width: 51em;
+    margin:auto;
+    grid-area: dkbillede;
+    
+}
+
+#ssbillede {
+    width: 49em;
+    margin:auto;
+    grid-area: ssbillede;
+    
+}
+
+#bolbillede {
+    height: 30em;
+    padding: 1em;
+    grid-area: bolbillede;
+     margin:auto;
+}
+
+#webubillede {
+    width: 40em;
+    grid-area: webubillede;
+     margin:auto;
+}
+
+#sekbillede {
+    width: 50em;
+    padding: 1em;
+    grid-area: sekbillede;
+    margin:auto;
+}
+
+#ro1billede {
+    width: 50em;
+    padding: 1em;
+    grid-area: ro1billede;
+     margin:auto;
+}
+
+
+#hiebillede {
+    width: 50em;
+    grid-area: hiebillede;
+    margin:auto;
+}
+
+#websbillede {
+    width: 50em;
+   margin:auto;
+    grid-area: websbillede;
+    
+}
+
+#navbillede {
+    width: 30em;
+    margin:auto;
+    grid-area: navbillede;
+    
+}
+
+#idebillede {
+    width: 50em;
+    margin:auto;
+    grid-area: idebillede;
+    
+}
+
+#grubillede {
+    width: 50em;
+    margin:auto;
+    grid-area: grubillede;
+    
+}
+
+#robillede {
+    width: 30em;
+    margin:auto;
+    grid-area: robillede;
+    
+}
+
+#visbillede {
+    width: 30em;
+    margin:auto;
+    grid-area: visbillede;
+    
+}
+
+#eplbillede {
+    width: 49em;
+    margin:auto;
+    grid-area: eplbillede;
+    
+}
+/* Her slutter Kommunikations Billeder */       
+/* Virksomhedens Billeder */       
+    
+#virkbillede {
+    width: 40em;
+    padding: 1em;
+    grid-area: virkbillede;
+     margin:auto;
+}
+
+#swotbillede {
+    width: 40em;
+    grid-area: swotbillede;
+    margin:auto;
+}
+
+#forbillede {
+    width: 50em;
+    padding: 1em;
+    grid-area: forbillede;
+     margin:auto;
+}
+
+#immbillede {
+    width: 50em;
+    grid-area: immbillede;
+     margin:auto;
+}
+
+#debillede {
+    width: 50em;
+    margin:auto;
+    grid-area: debillede;
+    
+}
+
+#opbillede {
+    width: 50em;
+    margin:auto;
+    grid-area: opbillede;
+    
+}
+
+#vanbillede {
+    width: 50em;
+    margin:auto;
+    grid-area: vanbillede;
+    
+}
+
+#scrbillede {
+    width: 30em;
+    margin:auto;
+    grid-area: scrbillede;
+    
+}
+
+#opnbillede {
+    width: 60em;
+    padding: 1em;
+    grid-area: opnbillede;
+     margin:auto;
+}
+
+#gnubillede {
+    width: 40em;
+    grid-area: gnubillede;
+     margin:auto;
+}
+    
+
+    
+#lrbillede {
+    width: 50%;
+    margin:auto;
+    grid-area: lrbillede;
+    
+}
+
+#projbillede {
+    width: 50em;
+    margin:auto;
+    grid-area: projbillede;
+    
+}
+
+#onebillede {
+    width: 50em;
+    padding: 1em;
+    grid-area: onebillede;
+     margin:auto;
+    }
+/* Her slutter virksomhedens billeder */ 
+    
+}
